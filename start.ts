@@ -12,7 +12,7 @@ let fsWait = false
 const cloudant = Cloudant(process.env.db)
 const db = cloudant.use('rad')
 
-const dbl = new DBL('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NTQwODI4MDY3OTY3Nzk5MyIsImJvdCI6dHJ1ZSwiaWF0IjoxNTg2NTcwNTg4fQ.fiHJWNnz4uPusuUt8BRiDoQVDOwmt20Jz9j0ArwVE-k', rad)
+const dbl = new DBL('uhohstinky', rad)
 
 //@ts-ignore
 rad.radios = new Discord.Collection()
