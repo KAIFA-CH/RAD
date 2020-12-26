@@ -10,7 +10,6 @@
     "axios": "^0.20.0",
     "dblapi.js": "^2.4.1",
     "decache": "^4.6.0",
-    "discord-paginationembed": "^2.1.0",
     "discord.js": "^12.3.1",
     "dotenv": "^8.2.0",
     "getos": "^3.2.1",
