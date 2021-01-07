@@ -25,7 +25,7 @@ module.exports = {
         const embed = new Discord.MessageEmbed()
             .setColor(7664119)
             .setAuthor(`${rad.user.username} | Prefix: ${process.env.prefix}`, rad.user.displayAvatarURL())
-            .setDescription(`Currently Playing: **${name}**`)
+            .setDescription(`Currently Playing: **${name}** \n Current Volume: **${message.guild.voice.connection.dispatcher.volume * 100.0}%**`)
             .setThumbnail(station.logo)
             //@ts-ignore
             .setFooter(`Playback was started by ${message.guild.members.cache.get(playing.requested).displayName}`, message.guild.members.cache.get(playing.requested).user.avatarURL())
