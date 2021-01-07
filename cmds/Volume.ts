@@ -16,10 +16,13 @@ module.exports = {
         if(!connection) return message.channel.send(`You're not in the VC`)
 
         let volume = parseInt(args[0])
+        let oldvolume = connection.dispatcher.volume
 
         if(isNaN(volume)) return message.channel.send(`You did not provide a number`)
         if(volume < 10 || volume > 100) return message.channel.send(`You provided a number out of the range! Please do a number between 10-100`)
-        
+
         connection.dispatcher.setVolume(volume / 100.0)
+
+        return message.channel.send(`Volume sucessfully changed from ${oldvolume * 100.0} to ${volume}`)
     }
 }
