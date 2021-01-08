@@ -31,11 +31,9 @@ module.exports = {
     perms: [],
     args: false,
     execute(message, args) {
-        //@ts-ignore
         const connection = rad.voice.connections.find(vc => vc.channel.id === message.member.voice.channelID)
         if (!connection) return message.channel.send('I\'m not playing in this guild.')
 
-        //@ts-ignore
         const info = rad.radios.find(station => station.name.toLowerCase() === rad.playing.find(guild => guild.id === message.guild.id).station)
 
         const embed = new Discord.MessageEmbed()
@@ -43,10 +41,8 @@ module.exports = {
             .setAuthor(`${rad.user.username} | Prefix: ${process.env.prefix}`, rad.user.displayAvatarURL())
             .setDescription(`**Stopped playing station: ${info.name}**\nTotal playback time: ${msToTime(connection.dispatcher.streamTime)}`)
             .setThumbnail(info.logo)
-            //@ts-ignore
             .setFooter(`Playback was started by ${message.guild.members.cache.get(rad.playing.find(guild => guild.id === message.guild.id).requested).displayName}`, message.guild.members.cache.get(rad.playing.find(guild => guild.id === message.guild.id).requested).user.avatarURL())
 
-        //@ts-ignore
         rad.playing.delete(message.guild.name)
 
         connection.channel.leave()
