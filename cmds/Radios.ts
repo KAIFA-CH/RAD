@@ -10,7 +10,7 @@ module.exports = {
 	args: false,
 	execute(message, args) {
 		if(!message.channel.permissionsFor(message.guild.me).has(['MANAGE_MESSAGES', 'ADD_REACTIONS', 'EMBED_LINKS'])) return message.channel.send(`Permissions missing!\nPlease make sure I can use following permissions in this channel/category:\nManage Messages, Add Reactions, Embed Links`)
-		//@ts-ignore
+
 		const radios = Array.from(rad.radios)
 
 		const generateEmbed = start => {
@@ -22,7 +22,6 @@ module.exports = {
 				  .setColor(0x00ffff)
 				  .setFooter(`Showing ${start + 1} to ${start + current.length} stations out of ${radios.length}`, 'https://cdn.icon-icons.com/icons2/1502/PNG/512/officedatabase_103574.png')
 
-			//@ts-ignore
 			current.forEach(radio => embed.addField(rad.radios.get(radio[0]).name, `**Genres:** ${rad.radios.get(radio[0]).genre}`))
 			return embed
 		  }
