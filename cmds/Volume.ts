@@ -9,7 +9,6 @@ module.exports = {
     args: true,
     usage: 'Please provide the volume 10-100%',
     execute(message, args) {
-        //@ts-ignore
         if(!rad.playing.find(guild => guild.id == message.guild.id)) return message.channel.send(`I'm not playing in this guild so volume will not be changed.`)
         
         //Get connection and fail if connection doesn't exist.Get dispatcher volume and Parse the number from the first argument
