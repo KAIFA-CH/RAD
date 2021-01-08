@@ -6,6 +6,14 @@ const decache = require('decache')
 const DBL = require('dblapi.js')
 dotenv.config()
 
+declare module "discord.js" {
+    export interface Client {
+        radios: Collection<unknown, any>,
+        cmds: Collection<unknown, any>,
+        playing: Collection<unknown, any>
+    }
+}
+
 const rad = new Discord.Client()
 let fsWait = false
 
@@ -14,13 +22,10 @@ const db = cloudant.use('rad')
 
 const dbl = new DBL('uhohstinky', rad)
 
-//@ts-ignore
 rad.radios = new Discord.Collection()
 
-//@ts-ignore
 rad.cmds = new Discord.Collection()
 
-//@ts-ignore
 rad.playing = new Discord.Collection()
 
 const cmds = fs.readdirSync('./cmds').filter(file => file.endsWith('.ts') || file.endsWith('.js'))
@@ -28,7 +33,6 @@ const cmds = fs.readdirSync('./cmds').filter(file => file.endsWith('.ts') || fil
 for (const file of cmds) {
     const command = require(`./cmds/${file}`)
 
-    //@ts-ignore
     rad.cmds.set(command.name.toLowerCase(), command)
 
     fs.watch(`./cmds/${file}`, (event, filename) => {
@@ -44,7 +48,6 @@ for (const file of cmds) {
 
             const command = require(`./cmds/${file}`);
 
-            //@ts-ignore
             rad.cmds.set(command.name.toLowerCase(), command)
         }
     });
@@ -57,7 +60,6 @@ function unicodeToChar(text: string) {
 }
 
 async function getradios() {
-    //@ts-ignore
     rad.radios.clear()
 
     //@ts-ignore
@@ -68,7 +70,6 @@ async function getradios() {
             var img = unicodeToChar(row.doc.img)
             var desc = unicodeToChar(row.doc.desc)
 
-            //@ts-ignore
             rad.radios.set(name.toLowerCase(), { name: name, genre: desc, stream: url, logo: img })
         })
     })
@@ -78,7 +79,6 @@ rad.on("ready", async () => {
     console.log(`Logged in as: ${rad.user.tag}`)
     getradios()
     rad.setInterval(() => {
-        //@ts-ignore
         rad.user.setActivity("in " + rad.playing.size + " VCs | Prefix: r!", { type: "PLAYING" })
     }, 60000)
 })
@@ -87,11 +87,9 @@ rad.on('voiceStateUpdate', (oldState, newState) => {
     if (newState.guild.me.voice.channel && newState.guild.me.voice.channel.members.size === 1) {
         newState.guild.me.voice.channel.leave()
 
-        //@ts-ignore
         rad.playing.delete(newState.guild.name)
     }
     if (oldState.member.user.username === rad.user.username && !newState.member.voice.channel) {
-        //@ts-ignore
         rad.playing.delete(oldState.guild.name)
     }
 });
@@ -112,21 +110,16 @@ rad.on('message', message => {
         return message.channel.send(`Radio List has been updated!`)
     }
 
-    //@ts-ignore
     if (!rad.cmds.has(command)) return
 
-    //@ts-ignore
     if (rad.cmds.get(command).args && !args.length) {
-        //@ts-ignore
         if (rad.cmds.get(command).usage) return message.channel.send(`You didn't provide any arguments! Please provide the following argument or Follow the instructions:\n\n${rad.cmds.get(command).usage}`)
 
         return message.channel.send(`You didn't provide any arguments!`)
     }
 
     try {
-        //@ts-ignore
         if (message.member.hasPermission(rad.cmds.get(command).perms)) {
-            //@ts-ignore
             rad.cmds.get(command).execute(message, args)
         } else {
             throw new Error("Invalid Permissions")
