@@ -2,19 +2,18 @@ import * as Discord from "discord.js"
 import { rad } from "../start"
 
 module.exports = {
-	name: 'Help',
-	description: '',
-	category: 'About',
+    name: 'Help',
+    description: '',
+    category: 'About',
     hide: true,
     perms: [],
 	execute(message, args) {
-        //@ts-ignore
         const categorytest = rad.cmds.filter(command => command.category == "Testing" && command.hide == false)
-        //@ts-ignore
+
         const categoryabout = rad.cmds.filter(command => command.category == "About" && command.hide == false)
-        //@ts-ignore
+
         const categoryfun = rad.cmds.filter(command => command.category == "Fun" && command.hide == false)
-        //@ts-ignore
+
         const categorygen = rad.cmds.filter(command => command.category == "General" && command.hide == false)
 
         const embed = new Discord.MessageEmbed()
