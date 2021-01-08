@@ -10,21 +10,17 @@ module.exports = {
     args: true,
     usage: 'Please provide a Station name.\nif the station has a space in the name then do the following r!play "(Radio Name)"',
     execute(message, args) {
-        //@ts-ignore
         const station = rad.radios.find(station => station.name.toLowerCase() == args[0].toLowerCase())
 
         if (!station) return message.channel.send('Station is not in our database.\nIf it is listed in rd!radios check the spelling.')
         
-        //@ts-ignore
         if (rad.playing.find(guild => guild.id === message.guild.id)) return message.channel.send('I\'m already playing in this guild.')
 
         if (message.member.voice.channel && !message.member.voice.channel.full) {
             message.member.voice.channel.join().then(connection => {
-                //@ts-ignore
                 const dispatcher = connection.play(rad.radios.get(args[0].toLowerCase()).stream)
                 dispatcher.setVolume(0.5)
 
-                //@ts-ignore
                 rad.playing.set(message.guild.name, { id: message.guild.id, station: args[0].toLowerCase(), requested: message.author.id })
 
                 const embed = new Discord.MessageEmbed()
