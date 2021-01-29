@@ -10,6 +10,7 @@ module.exports = {
     args: true,
     usage: 'Please provide a Station name.\nif the station has a space in the name then do the following r!play "(Radio Name)"',
     execute(message, args) {
+        // Switch out find filter to support similarities
         const station = rad.radios.find(station => station.name.toLowerCase() == args[0].toLowerCase())
 
         if (!station) return message.channel.send('Station is not in our database.\nIf it is listed in rd!radios check the spelling.')
