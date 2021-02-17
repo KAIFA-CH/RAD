@@ -2,9 +2,9 @@ import * as Discord from "discord.js"
 import { rad } from "../start"
 
 module.exports = {
-    name: 'Help',
-    description: '',
-    category: 'About',
+	name: 'Help',
+	description: '',
+	category: 'About',
     hide: true,
     perms: [],
 	execute(message, args) {
