@@ -12,7 +12,7 @@ module.exports = {
     execute(message, args) {
         const station = rad.radios.find(station => station.name.toLowerCase() == args[0].toLowerCase())
 
-        if (!station) return message.channel.send('Station is not in our database.\nIf it is listed in rd!radios check the spelling.')
+        if (!station) return message.channel.send('Station is not in our database.\nIf it is listed in r!radios check the spelling.')
         
         if (rad.playing.find(guild => guild.id === message.guild.id)) return message.channel.send('I\'m already playing in this guild.')
 
