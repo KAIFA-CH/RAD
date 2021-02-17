@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "esModuleInterop": false,
+        "target": "es6",
+        "noEmitHelpers": false,
+        "moduleResolution": "node",
+        "typeRoots": [
+            "./discord.d.ts"
+        ],
+        "outDir": "compile"
+    },
+    "lib": ["es2015"]
+}
