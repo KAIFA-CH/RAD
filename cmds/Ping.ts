@@ -1,4 +1,4 @@
-import { rad } from "../start"
+import { rad } from "../bot"
 
 module.exports = {
 	name: 'Ping',

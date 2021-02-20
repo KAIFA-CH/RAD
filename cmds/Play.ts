@@ -1,4 +1,4 @@
-import { rad } from "../start"
+import { rad } from "../bot"
 import * as Discord from "discord.js"
 
 module.exports = {
@@ -16,6 +16,8 @@ module.exports = {
         if (!station) return message.channel.send('Station is not in our database.\nIf it is listed in r!radios check the spelling.')
         
         if (rad.playing.find(guild => guild.id === message.guild.id)) return message.channel.send('I\'m already playing in this guild.')
+
+        if (message.guild.me.voice.connection) return message.channel.send('I\'m already playing in this guild.')
 
         if (message.member.voice.channel && !message.member.voice.channel.full) {
             message.member.voice.channel.join().then(connection => {

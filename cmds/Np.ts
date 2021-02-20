@@ -1,4 +1,4 @@
-import { rad } from "../start"
+import { rad } from "../bot"
 import * as Discord from "discord.js"
 const axios = require("axios")
 

@@ -1,5 +1,5 @@
 import * as Discord from "discord.js"
-import { rad } from "../start"
+import { rad } from "../bot"
 
 module.exports = {
 	name: 'Help',
