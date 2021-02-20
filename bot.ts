@@ -91,6 +91,10 @@ rad.on('voiceStateUpdate', (oldState, newState) => {
     }
 });
 
+process.on('message', async message => {
+    if(message === 'updateradios') return await getradios()
+})
+
 rad.on('message', message => {
     if (!message.content.startsWith(process.env.prefix) || message.author.bot) return
     const args = message.content.slice(process.env.prefix.length).trim().split(/ +(?=(?:(?:[^"]*"){2})*[^"]*$)/g)
@@ -103,22 +107,7 @@ rad.on('message', message => {
     const command = args.shift().toLowerCase()
 
     if(command === "refresh" && message.author.id === "82662823523516416") {
-        rad.shard.broadcastEval(`(async () => {
-            const Cloudant = require("@cloudant/cloudant");
-            const cloudant = Cloudant(process.env.db);
-            const db = cloudant.use('rad');
-            const rc = this;
-            rc.radios.clear();
-            await db.partitionedList('radios', { include_docs: true }).then(res => {
-                res.rows.forEach(function (row) {
-                    var name = row.doc.name;
-                    var url = row.doc.url;
-                    var img = row.doc.img;
-                    var desc = row.doc.desc;
-                    rc.radios.set(name.toLowerCase(), { name: name, genre: desc, stream: url, logo: img });
-                })
-            })
-        })();`)
+        rad.shard.send('refreshlist')
         return message.channel.send(`Radio List has been updated!`)
     }
 

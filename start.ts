@@ -8,5 +8,13 @@ const manager = new ShardingManager('./bot.js', { token: process.env.key })
 //@ts-ignore
 const poster = AutoPoster('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NTQwODI4MDY3OTY3Nzk5MyIsImJvdCI6dHJ1ZSwiaWF0IjoxNTg2NTcwNTg4fQ.fiHJWNnz4uPusuUt8BRiDoQVDOwmt20Jz9j0ArwVE-k', manager)
 
-manager.on('shardCreate', shard => console.log(`Launched shard ${shard.id}`))
+manager.on('shardCreate', shard => {
+    console.log(`Launched shard ${shard.id}`)
+    shard.on('message', (message) => {
+        if(message === 'refreshlist') {
+            manager.broadcast('updateradios')
+        }
+    })
+})
+
 manager.spawn()
