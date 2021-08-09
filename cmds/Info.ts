@@ -25,7 +25,7 @@ module.exports = {
         totalSeconds %= 3600
         var minutes = Math.floor(totalSeconds / 60)
         var seconds = Math.floor(totalSeconds % 60)
-        let ava:any = await rad.shard.broadcastEval('this.users.cache.get(\'82662823523516416\').avatarURL({ dynamic: true, size: 256 })')
+        //let ava:any = await rad.shard.broadcastEval('this.users.cache.get(\'82662823523516416\').avatarURL({ dynamic: true, size: 256 })')
 
         const promises = [
             rad.shard.fetchClientValues('guilds.cache.size'),
@@ -46,7 +46,7 @@ module.exports = {
                 .addField('Users', totalMembers, true)
                 .addField(`Support`, `[Join Server](https://discord.gg/ayVdTbX)`, true)
                 .addField('Uptime', `${days} days, ${hours} hours, ${minutes} minutes and ${seconds} seconds`)
-                .setFooter('Developed by Maroxy#4964', ava[0])
+                //.setFooter('Developed by Maroxy#4964', ava[0])
             return message.channel.send({embed})
         }).catch(console.error)
 	}
