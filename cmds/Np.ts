@@ -16,7 +16,7 @@ module.exports = {
 
         const station = rad.radios.find(station => station.name.toLowerCase() == playing.station)
 
-        const fetch = await axios.get(`https://api.radbot.tech/${station.name}`)
+        const fetch = await axios.get(`https://getsong.vercel.app/${station.name}`)
 
         let name = fetch.data.title
 
