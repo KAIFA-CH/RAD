@@ -1,0 +1,620 @@
+{
+   "rows":[
+      {
+         "_id":"radios:518f2ea363c15f5b8ef979524149626b",
+         "_rev":"1-007dd648c76af38359fbccc941beedf9",
+         "name":"AsiaDreamJHits",
+         "desc":"Pop, Japanese",
+         "url":"http://bluford.torontocast.com:8526/stream",
+         "img":"http://asiadreamradio.torontocast.stream/stations/images/stations/japanhits.png"
+      },
+      {
+         "_id":"radios:5eaf92d183cbcd18785db404",
+         "_rev":"1-7fbb2075193c782baa45a880c3273361",
+         "desc":"Pop, R&B, Rock, German/English",
+         "img":"https://cdn-radiotime-logos.tunein.com/s25021g.png",
+         "name":"JAM.FM",
+         "url":"https://stream.jam.fm/jamfm-live/mp3-128/radioDE/"
+      },
+      {
+         "_id":"radios:5eaf92d183cbcd18785db405",
+         "_rev":"1-d779e4830eb8a1196c5416c8b4dfa1ee",
+         "desc":"Remix, Dubstep",
+         "img":"https://static.radio.de/images/broadcasts/68/76/16727/c175.png",
+         "name":"Dubplate.fm",
+         "url":"https://sc2.dubplate.fm/radio/8000/dubandbass/uhifi?hi.mp3"
+      },
+      {
+         "_id":"radios:5eaf92d183cbcd18785db406",
+         "_rev":"1-d110f97544d4cdb686a54dbdd6dafde0",
+         "desc":"Pop, R&B, Rock, Remix/Mashup, German/English",
+         "img":"https://static.radio.de/images/broadcasts/88/1e/16657/c300.png",
+         "name":"ILoveMashup",
+         "url":"https://streams.iloveradio.de/iloveradio5.mp3"
+      },
+      {
+         "_id":"radios:5eaf92d183cbcd18785db407",
+         "_rev":"1-76c336e48a2027b850d8c4152edcab69",
+         "desc":"Pop, R&B, Rock",
+         "img":"https://cdn-radiotime-logos.tunein.com/s24756q.png",
+         "name":"Rock95",
+         "url":"https://cob-ais.leanstream.co/CFJBFM-MP3"
+      },
+      {
+         "_id":"radios:5eaf92d183cbcd18785db408",
+         "_rev":"1-4f07bd5e4a6d9fd31104e4a64cc474a3",
+         "desc":"Anime, Nightcore",
+         "img":"https://happyfm.eu/wp-content/uploads/2019/06/cropped-Icon-3.png",
+         "name":"HappyFMNC",
+         "url":"https://happyfmnightscore.stream.laut.fm/happyfmnightscore"
+      },
+      {
+         "_id":"radios:5eaf92d183cbcd18785db409",
+         "_rev":"1-705da167cdaee120d996dc3ccd9c749a",
+         "desc":"Pop, R&B, Rock, Remix/Mashup, German/English",
+         "img":"https://static.radio.de/images/broadcasts/94/dd/38268/5/c175.png",
+         "name":"bigFMMashup",
+         "url":"https://streams.bigfm.de/bigfm-mashup-128-aac"
+      },
+      {
+         "_id":"radios:5eaf92d183cbcd18785db40a",
+         "_rev":"1-edb38a79f09fd0590b6443e38ad64930",
+         "desc":"Pop, R&B, Rock, German/English",
+         "img":"https://static.radio.de/images/broadcasts/af/e4/1444/4/c175.png",
+         "name":"bigFM",
+         "url":"https://streams.bigfm.de/bigfm-deutschland-128-aac"
+      },
+      {
+         "_id":"radios:5eaf92d183cbcd18785db40b",
+         "_rev":"1-cd921b6b3318dd78060a5870e5b6d27c",
+         "desc":"Pop, German/English",
+         "img":"https://www.radiorur.de/assets/images/senderlogos/radio_rur_webradio.png",
+         "name":"RadioRur",
+         "url":"https://radiorur-ais-edge-3074-fra-eco-cdn.cast.addradio.de/radiorur/live/mp3/high"
+      },
+      {
+         "_id":"radios:5eaf92d183cbcd18785db40c",
+         "_rev":"1-e693acce87a99b6ae5981589cbd8a98e",
+         "desc":"Trap, R&B",
+         "img":"https://www.phonostar.de/images/auto_created/trap_fm184x184.png",
+         "name":"TRAP.FM",
+         "url":"http://stream.trap.fm:6004/;stream.mp3"
+      },
+      {
+         "_id":"radios:5eaf92d183cbcd18785db40e",
+         "_rev":"1-799a744d9ba111ffc6c56f44de9a44d6",
+         "desc":"Pop, R&B, Rock, Remix, German/English",
+         "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/1LIVE_diggi.svg/1280px-1LIVE_diggi.svg.png",
+         "name":"1LiveDiggi",
+         "url":"http://wdr-1live-diggi.icecast.wdr.de/wdr/1live/diggi/mp3/128/stream.mp3"
+      },
+      {
+         "_id":"radios:5eaf92d183cbcd18785db40f",
+         "_rev":"1-d69e229c9a770864030ff9619fc0d94b",
+         "desc":"Pop, R&B, Rock",
+         "img":"https://live.wkrq.com/wp-content/uploads/2016/01/wkrq_logo1.png",
+         "name":"Q102",
+         "url":"https://playerservices.streamtheworld.com/api/livestream-redirect/WKRQFMAAC.aac?dist=hubbard&source=hubbard-web&ttag=web"
+      },
+      {
+         "_id":"radios:5eaf92d183cbcd18785db410",
+         "_rev":"1-50926d00308456a521df5dc5be64144c",
+         "desc":"Hip-Hop, LoFi",
+         "img":"https://cdn-profiles.tunein.com/s255374/images/logoq.png",
+         "name":"VIBEROOM",
+         "url":"https://a7.radioheart.ru:9017/RH4481"
+      },
+      {
+         "_id":"radios:5eaf92d183cbcd18785db411",
+         "_rev":"1-b0627ec12bc0431b9811a6d7c46ced33",
+         "desc":"Touhou, Anime, Japanese",
+         "img":"https://gensokyoradio.net/images/assets/gr-logo.png",
+         "name":"Gensokyo",
+         "url":"https://stream.gensokyoradio.net/1/"
+      },
+      {
+         "_id":"radios:5eaf92d183cbcd18785db413",
+         "_rev":"1-7140af3975b355f79f1eea3511469b6a",
+         "desc":"Pop, R&B, Rock",
+         "img":"https://wncy.com/static/brands/wncy/logo.fd4c72423174.png",
+         "name":"Y100WNCY",
+         "url":"https://17813.live.streamtheworld.com/WNCYFMAAC.aac"
+      },
+      {
+         "_id":"radios:5eaf92d183cbcd18785db414",
+         "_rev":"1-cd5eea36ba13558bf2bb57697165d026",
+         "desc":"Pop, R&B, Rock",
+         "img":"https://static.radio.de/images/broadcasts/83/4a/3876/c175.png",
+         "name":"ILoveRadio",
+         "url":"https://streams.ilovemusic.de/iloveradio1.mp3"
+      },
+      {
+         "_id":"radios:5eaf92d183cbcd18785db415",
+         "_rev":"1-66d73cfd368862f4947146643adc2f0c",
+         "desc":"Pop, R&B, Rock",
+         "img":"https://static.radio.de/images/broadcasts/87/95/103406/1/c175.png",
+         "name":"ILoveHipHop",
+         "url":"https://streams.ilovemusic.de/iloveradio3.mp3"
+      },
+      {
+         "_id":"radios:5eaf93fc76f7f05c98d95980",
+         "_rev":"1-f91f5f7d665087b0ec894daaf344b7f9",
+         "name":"RadioMonsterEG",
+         "desc":"Pop, R&B, Rock",
+         "url":"https://ic1.radiomonster.fm/evergreens-320",
+         "img":"https://www.radiomonster.fm/typo3conf/ext/radiomonsterfm_template/Resources/Public/Images/webradio_logo.png"
+      },
+      {
+         "_id":"radios:5eaf945c76f7f05c98d95981",
+         "_rev":"1-4c3fa60d9b84c81a6bedb37834741985",
+         "name":"ProFMRO",
+         "desc":"Pop, R&B, Rock",
+         "url":"https://edge126.rcs-rds.ro/profm/profm.mp3",
+         "img":"https://www.profm.ro/static/theme-repo/bin/images/logo-profm.png"
+      },
+      {
+         "_id":"radios:5eaf947876f7f05c98d95982",
+         "_rev":"1-e655cd2d8465959a8c81bcb87287846b",
+         "name":"VirginRadioRO",
+         "desc":"Pop, R&B, Rock",
+         "url":"https://astreaming.edi.ro:8443/VirginRadio_aac",
+         "img":"https://virginradio.ro/wp-content/themes/virgin_v2/img/logo.png"
+      },
+      {
+         "_id":"radios:5eaf949376f7f05c98d95983",
+         "_rev":"1-20705cb978175dac539ece3f5ec436ae",
+         "name":"KissFMRO",
+         "desc":"Pop, R&B, Rock",
+         "url":"https://live.kissfm.ro/kissfm.aacp",
+         "img":"https://www.kissfm.ro/app/assets/images/logo.png"
+      },
+      {
+         "_id":"radios:5eaf94b076f7f05c98d95984",
+         "_rev":"1-36f372f4ee319a81c365d53e644a5bc2",
+         "name":"EuropaFM",
+         "desc":"Pop, R&B, Rock",
+         "url":"https://astreaming.edi.ro:8443/EuropaFM_aac",
+         "img":"https://www.europafm.ro/wp-content/themes/efm_v4/img/logo.png"
+      },
+      {
+         "_id":"radios:5eb128cde4d82c565eddf7b7",
+         "_rev":"1-2253502bb610143f82fd22e134f2c1a7",
+         "name":"CapitalFMUK",
+         "desc":"Pop, R&B, Rock",
+         "url":"https://media-ssl.musicradio.com/CapitalUK",
+         "img":"https://upload.wikimedia.org/wikipedia/en/e/eb/Capital_FM_Network_logo.png"
+      },
+      {
+         "_id":"radios:5ec0ff51516a2278f4b23b3d",
+         "_rev":"1-dc55a16b7535f7c155e0a440e8aec625",
+         "name":"GAYFM",
+         "desc":"Electro, Trance",
+         "url":"https://icepool.silvacast.com/GAYFM.mp3",
+         "img":"https://www.gayfm.de/images/logos/logo.png"
+      },
+      {
+         "_id":"radios:5ed3e1ebb791371e87c39e11",
+         "_rev":"1-beec961a3051918ab281eee1f601e422",
+         "name":"Bayern3",
+         "desc":"Pop, R&B",
+         "url":"https://br-edge-20a9-fra-lg-cdn.cast.addradio.de/br/br3/live/mp3/128/stream.mp3",
+         "img":"https://www.bayern3.de/favicon.png"
+      },
+      {
+         "_id":"radios:5ed3e212b791371e87c39e12",
+         "_rev":"1-8f45407adf063ee78c7c637741c2fb51",
+         "name":"OpenFMKlub",
+         "desc":"Club, Pop, R&B",
+         "url":"https://stream.open.fm/8",
+         "img":"https://d3kle7qwymxpcy.cloudfront.net/images/broadcasts/a4/3b/16093/1/c175.png"
+      },
+      {
+         "_id":"radios:5ed3e237b791371e87c39e13",
+         "_rev":"1-dcba695fb1801d84cd7d0e857b5559f5",
+         "name":"KISSFMCB",
+         "desc":"Club, Pop, R&B",
+         "url":"https://topradio-de-hz-fal-stream04-cluster01.radiohost.de/kissfm-electro_mp3-128",
+         "img":"https://d3kle7qwymxpcy.cloudfront.net/images/broadcasts/f1/7a/10284/3/c175.png"
+      },
+      {
+         "_id":"radios:5ed3e258b791371e87c39e14",
+         "_rev":"1-fd7d2f85c754dae52dfc4ac5b42e443e",
+         "name":"TheTranceStation",
+         "desc":"Trance",
+         "url":"http://igor.torontocast.com:1210/stream",
+         "img":"https://cdn.discordapp.com/icons/716214883112190012/bdf38496bfa5658cec392c02960a65ee.png?size=512"
+      },
+      {
+         "_id":"radios:5ee6dcf019d16b1ce60ca05e",
+         "_rev":"1-fcdfeeb1ace3b15d201339f70f28754e",
+         "name":"1LIVE",
+         "desc":"Hip Hop, Rap",
+         "url":"https://wdr-edge-2020-fra-lg-cdn.cast.addradio.de/wdr/1live/live/mp3/128/stream.mp3",
+         "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/WDR_1LIVE_Logo_2016.svg/1200px-WDR_1LIVE_Logo_2016.svg.png"
+      },
+      {
+         "_id":"radios:5ee6dd1e19d16b1ce60ca05f",
+         "_rev":"1-75b6f7a8a2aaf49afb2b7cc6bad2c8df",
+         "name":"NRJFrenchHits",
+         "desc":"Hip Hop, Rap",
+         "url":"https://scdn.nrjaudio.fm/fr/30037/mp3_128.mp3?origine=radio.net&cdn_path=adswizz_lbs7&adws_out_a1",
+         "img":"https://players.nrjaudio.fm/live-metadata/player/img/player-files/nrj/logos/173x173/P_NRJ_V3.png"
+      },
+      {
+         "_id":"radios:5ee6dd4019d16b1ce60ca060",
+         "_rev":"1-4f3758e4dd068f258c37f81efda7ab7e",
+         "name":"Radio21",
+         "desc":"Hip Hop, Rap, Rock",
+         "url":"https://stream.radio21.de/radio21_oldenburg.mp3",
+         "img":"https://www.phonostar.de/images/auto_created/Radio_21_3184x184.png"
+      },
+      {
+         "_id":"radios:5eefa57b487cde062fc2d646",
+         "_rev":"1-cc1f732d405e247dc9e2dad7157ad86a",
+         "name":"VIRGINRADIOFR",
+         "desc":"Hip Hop, Rap, Rock",
+         "url":"https://stream.virginradio.fr/virgin.mp3?aw_0_1st.playerid=lgrdrnwsRadiofr",
+         "img":"https://yt3.ggpht.com/a/AATXAJzeuGPyNRzHpiFHtXo3i79T-XjM03QyNdWmgw=s900-c-k-c0xffffffff-no-rj-mo"
+      },
+      {
+         "_id":"radios:5f6c51e729cd571f46863ba0",
+         "_rev":"1-93a584886ae306094a90e4e937a0880b",
+         "name":"Arirang",
+         "desc":"Hip Hop",
+         "url":"http://amdlive-ch03.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/chunklist_b1728000_sleng.m3u8",
+         "img":"http://img.arirang.com/images/index/arirang.png"
+      },
+      {
+         "_id":"radios:5f6c524c29cd571f46863ba1",
+         "_rev":"1-9e000ca2f679b644de5d0981e60c7a36",
+         "name":"TRadio",
+         "desc":"Hip Hop, Rock",
+         "url":"https://tradio.stream.laut.fm/tradio",
+         "img":"https://assets.laut.fm/21cba39c8d474d8c41a20ec1ebafaa2e?t=_120x120"
+      },
+      {
+         "_id":"radios:5f6c52aa29cd571f46863ba2",
+         "_rev":"1-fe5e5f08bab56a4ee5661824e68da66d",
+         "name":"Wacken Radio",
+         "desc":"Rock",
+         "url":"https://rautemusik-de-hz-fal-stream18.radiohost.de/wackenradio",
+         "img":"https://www.wackenradio.com/wp-content/uploads/2020/09/logo-wr-2019-150x60.png"
+      },
+      {
+         "_id":"radios:5f6c534229cd571f46863ba3",
+         "_rev":"1-e2aa1c1a86b8e3f56ee0df631e9282bb",
+         "name":"Ostseewelle",
+         "desc":"Hip Hop",
+         "url":"http://ostseewelle-ais-edge-4006-dus-dtag-cdn.cast.addradio.de/ostseewelle/nord/mp3/high",
+         "img":"https://d3kle7qwymxpcy.cloudfront.net/images/broadcasts/6f/04/116816/1/c175.png"
+      },
+      {
+         "_id":"radios:5f6c541329cd571f46863ba5",
+         "_rev":"1-562c4f47feec00d98a822380e7f82448",
+         "name":"Island106",
+         "desc":"Hip Hop, Rock",
+         "url":"https://ice41.securenetsystems.net/WILN",
+         "img":"https://www.island106.com/wp-content/uploads/2017/05/ns-logo.png"
+      },
+      {
+         "_id":"radios:5fa8808fe65a5af01eaadac8",
+         "_rev":"1-c5c4c290675d8f52067d1b5a5fe885f1",
+         "name":"EarthFM",
+         "desc":"Hip Hop, Rock",
+         "url":"https://22113.live.streamtheworld.com/WRTHFMAAC.aac",
+         "img":"https://cdn.saleminteractivemedia.com/shared/images/logos/248/template3_logo.png"
+      },
+      {
+         "_id":"radios:5fa881abe65a5af01eaadac9",
+         "_rev":"1-7718ff3e8dfef89810c6c810f64368a9",
+         "name":"GreenStone FM",
+         "desc":"Hip Hop, Rock",
+         "url":"https://radio.hzone.ro/8020/stream",
+         "img":""
+      },
+      {
+         "_id":"radios:5fa883fbe65a5af01eaadaca",
+         "_rev":"1-6e1b5964b53e67daac6c7e7a4858789d",
+         "name":"Indie88",
+         "desc":"Hip Hop, Rock, Pop, Jazz",
+         "url":"https://cob-ais.leanstream.co/CINDFM",
+         "img":"https://indie88.com/wp-content/themes/indie88/images/touch/apple-touch-icon-144x144-precomposed.png"
+      },
+      {
+         "_id":"radios:5fa885d8e65a5af01eaadacb",
+         "_rev":"1-557a0c6552f1fc6b3936bca2babe6b88",
+         "name":"KPOPWAY",
+         "desc":"Pop, Korean",
+         "url":"https://streamer.radio.co/s06b196587/listen",
+         "img":"https://images.squarespace-cdn.com/content/590e508f37c5813ac67ef49d/1553136604878-CQ926GD72SD8XFXNYJKS/KPOPWAY_LISTON_TWITTER.png"
+      },
+      {
+         "_id":"radios:5fa88692e65a5af01eaadacc",
+         "_rev":"1-27c10b6841a4076d1651d8b7a31f5062",
+         "name":"Pinoy",
+         "desc":"Pop, Filipino",
+         "url":"https://usa5.fastcast4u.com/proxy/mcbnjpr?mp=/1",
+         "img":"http://www.jeepneypinoyradio.com/wp-content/uploads/2018/08/JeepneyPinoyRadio-LogoSite.png"
+      },
+      {
+         "_id":"radios:5fa8877ae65a5af01eaadacd",
+         "_rev":"1-f75e0ccafcfe46be18f7be81fb0b860f",
+         "name":"Happyday New Age Radio",
+         "desc":"Chill, New Age, Korean",
+         "url":"http://newage.kr:8000/;",
+         "img":"https://cdn.onlineradiobox.com/img/logo/5/28715.v1.png"
+      },
+      {
+         "_id":"radios:5fc1b1d890f2505c3cc410e1",
+         "_rev":"1-99c580aa5578f9207d4f61b85cff3b53",
+         "name":"StraightLineFM",
+         "desc":"Pop, Mashup, Electronic",
+         "url":"http://45.82.120.163:9100/;stream.mp3",
+         "img":"https://edmproject.de/gallery_gen/53590ea3bdf85e778480cd7512beb6ec_308x308.png"
+      },
+      {
+         "_id":"radios:5fc1b3c090f2505c3cc410e4",
+         "_rev":"1-ce8890407ee65095e6dd5e6c0239e34b",
+         "name":"Radio886.AT",
+         "desc":"Pop, Hip-Hop",
+         "url":"https://radio886.fluidstream.eu/886_live.mp3",
+         "img":"https://www.radio886.at/img/logo.svg"
+      },
+      {
+         "_id":"radios:5fc1d4555ff74179c74d45e1",
+         "_rev":"1-25e2b3a5f56c558e3ba5ec9692868720",
+         "name":"NoCopyrightSounds",
+         "desc":"Pop, Hip-Hop, EDM",
+         "url":"https://my-webradio.stream.laut.fm/my-webradio",
+         "img":"https://ncs.io/static/web/img/logo.png"
+      },
+      {
+         "_id":"radios:5fd295ecddf16eb60018a294",
+         "_rev":"1-7cd5383d1eeae3481356c8d541dfb302",
+         "name":"Mittweida",
+         "desc":"Pop, Hip-Hop",
+         "url":"http://netradio.ext.htwm.de:8000/live256",
+         "img":"https://cdn-radiotime-logos.tunein.com/s96120g.png"
+      },
+      {
+         "_id":"radios:5fda633805bdb0513d5ae073",
+         "_rev":"1-bf3108ac908588fd2b29533ac8d97d03",
+         "name":"MDRJump",
+         "desc":"Pop, Hip-Hop",
+         "url":"https://mdr-edge-2060-fra-lg-cdn.cast.addradio.de/mdr/jump/live/mp3/128/stream.mp3?_art=dj0yJmlwPTE3OC4yMDAuMTE2LjI0MCZpZD1pY3NjeGwtejZzaXMyYW5iJnQ9MTYwODIzNDk1MCZzPTc4NjZmMjljI2Q5MDFlNWU4YWFkNGJiNmMxN2FhNjVlY2U5NTdjMTNi",
+         "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/MDR_JUMP_Logo.svg/1200px-MDR_JUMP_Logo.svg.png"
+      },
+      {
+         "_id":"radios:5eaf92d183cbcd18785db40d",
+         "_rev":"2-932e011b7f2f5054c16606846b527102",
+         "desc":"Pop, R&B, Rock, Remix",
+         "img":"https://truckersfm.s3.fr-par.scw.cloud/static/tfm-2020.png",
+         "name":"TruckersFM",
+         "url":"https://live.truckers.fm/"
+      },
+      {
+         "_id":"radios:5fc1b39d90f2505c3cc410e3",
+         "_rev":"2-e1394ae6dd70b1c5f3c17551a6b54387",
+         "name":"Bass-Clubbers",
+         "desc":"Bass",
+         "url":"http://87.98.217.63:12548/.mp3",
+         "img":"https://thumbnailer.mixcloud.com/unsafe/160x160/profile/b/6/9/d/d407-02b5-426e-9a93-a6f68d6cfb36"
+      },
+      {
+         "_id":"radios:91dc4b1e074b777c20852be8a816982e",
+         "_rev":"5-adb9e53c55022eca32b7412b4abb1d55",
+         "name":"Energy-Berlin",
+         "desc":"Hits, Pop, Hip-Hop, German",
+         "url":"https://scdn.nrjaudio.fm/adwz1/de/33001/mp3_128.mp3?origine=radio.net",
+         "img":"https://d3kle7qwymxpcy.cloudfront.net/images/broadcasts/7e/a2/6871/1/c175.png"
+      },
+      {
+         "_id":"radios:3eed6ed81e80ea4b6122e583555824dd",
+         "_rev":"1-8b4e3fafa402a4561bd756e5f23c58df",
+         "name":"Bollerwagen",
+         "desc":"Pop, Hip Hop",
+         "url":"https://ffn-de-hz-fal-stream01-cluster01.radiohost.de/radiobollerwagen_mp3-192",
+         "img":"https://d3kle7qwymxpcy.cloudfront.net/images/broadcasts/80/eb/100349/2/c175.png"
+      },
+      {
+         "_id":"radios:9eed6ed81e80ea4b6122e583555824dd",
+         "_rev":"2-e682630d20a51e3efc851a789dce0157",
+         "name":"Bollerwagen",
+         "desc":"Pop, Hip Hop",
+         "url":"https://ffn-de-hz-fal-stream01-cluster01.radiohost.de/radiobollerwagen_mp3-192",
+         "img":"https://d3kle7qwymxpcy.cloudfront.net/images/broadcasts/80/eb/100349/2/c175.png"
+      },
+      {
+         "_id":"radios:217ca893093f8b2ef085e578ec5888c4",
+         "_rev":"1-0239e1d5bbfa7aee01a7e852e5e5ebc4",
+         "name":"Radio-Paloma",
+         "desc":"Pop, Hits",
+         "url":"https://pool.radiopaloma.de/RADIOPALOMA.mp3",
+         "img":"https://schlager.radio/wp-content/uploads/2019/11/radio-paloma-cover-live-650x650.jpg"
+      },
+      {
+         "_id":"radios:702bddd5d5cf7425fd8c136edcb79590",
+         "_rev":"1-63edad30db8d3b0d96ed647ffde924cc",
+         "name":"AntenneBY",
+         "desc":"Pop, Hip-Hop, Hits, German",
+         "url":"https://s9-webradio.antenne.de/antenne/stream/mp3",
+         "img":"https://d3kle7qwymxpcy.cloudfront.net/images/broadcasts/81/d7/9111/1/c175.png"
+      },
+      {
+         "_id":"radios:183bbf8794e1c360f40db997925bdf6d",
+         "_rev":"1-a160f30d1cb601c821abb2c13ae4241a",
+         "name":"QCIndie",
+         "desc":"Indie, Hip Hop",
+         "url":"https://ssl.aloncast.com:1516/;/stream",
+         "img":"https://www.qcindie.com/wp-content/uploads/2015/11/cropped-favicon1-192x192.png"
+      },
+      {
+         "_id":"radios:cdbdbb0d307cbd786ac98ff185141436",
+         "_rev":"1-f7561442e90b1973bff19ac7a5a23b76",
+         "name":"Radio91.2",
+         "desc":"Pop, HIts, German",
+         "url":"https://radio912-ais-edge-3002-fra-eco-cdn.cast.addradio.de/radio912/live/mp3/high",
+         "img":"https://www.radio912.de/assets/images/senderlogos/radio_91_2.big.png"
+      },
+      {
+         "_id":"radios:cdbdbb0d307cbd786ac98ff1851449f1",
+         "_rev":"1-3bae7e8cbb670370a3cdc8c3d4d83974",
+         "name":"WDR2",
+         "desc":"Pop, Hip Hop, German",
+         "url":"https://wdr-edge-30b6-fra-ts-cdn.cast.addradio.de/wdr/wdr2/rheinland/mp3/128/stream.mp3",
+         "img":"https://www1.wdr.de/resources/img/wdr/logo/epgmodule/wdr2_logo_claim.svg"
+      },
+      {
+         "_id":"radios:2c7fa2c3edc7ea53dbcc7a2864aa04d6",
+         "_rev":"1-cae1c811ce27dde12d3c4b03ec1f7fb1",
+         "name":"VibeOfVegas",
+         "desc":"Pop, R&B, Hip Hop",
+         "url":"http://icyrelay.181.fm/181-vibe_128k.mp3?_=1",
+         "img":"https://d3kle7qwymxpcy.cloudfront.net/images/broadcasts/19/15/8752/c175.png"
+      },
+      {
+         "_id":"radios:e1b16106f102ba788fa5e36b621d511d",
+         "_rev":"1-5ccf7e0d7f000f9715b8cd755e4c7771",
+         "name":"RAD",
+         "desc":"EDM, Hip Hop, Pop",
+         "url":"http://stream.zeno.fm/k4mk3zk42k8uv",
+         "img":"https://imgproxy.zenomedia.com/insecure/fit/500/500/ce/0/plain/https://proxy.zeno.fm/content/stations/agxzfnplbm8tc3RhdHNyMgsSCkF1dGhDbGllbnQYgIDQp_nU1woMCxIOU3RhdGlvblByb2ZpbGUYgIDQp_qS8AkMogEEemVubw/image/%3Fresize=500x500&v=1"
+      },
+      {
+         "_id":"radios:3f3f1bb2072fcbd0e0f389048891c947",
+         "_rev":"2-ecc13b566713733bd3fec59c152c7dff",
+         "name":"Bayern1",
+         "desc":"Hip Hop, Hits, German",
+         "url":"https://br-edge-20c0-dus-lg-cdn.cast.addradio.de/br/br1/obb/mp3/mid",
+         "img":"https://d3kle7qwymxpcy.cloudfront.net/images/broadcasts/10/90/2245/2/c175.png"
+      },
+      {
+         "_id":"radios:37c64a3152a81c10ef738446b29d6318",
+         "_rev":"1-cf5deba1d81ef7f44f8fef1e45e95f98",
+         "name":"SunshineLive",
+         "desc":"Electronic",
+         "url":"https://sunshinelive.hoerradar.de/sunshinelive-live-mp3-hq",
+         "img":"https://d3kle7qwymxpcy.cloudfront.net/images/broadcasts/b6/e3/2241/1/c175.png"
+      },
+      {
+         "_id":"radios:e415e1b3928f97a107be62e973230593",
+         "_rev":"1-21d4a5d4b39cbc9830a610948f3c0287",
+         "name":"RADIOBOB",
+         "desc":"Rock",
+         "url":"https://bob.hoerradar.de/radiobob-national-mp3-hq",
+         "img":"https://www.phonostar.de/images/auto_created/radio_bob5184x184.png"
+      },
+      {
+         "_id":"radios:6ffab2bd1a58138ac50a6151d8a466f8",
+         "_rev":"1-f54e46b35d53aa43db68c4bbe86101d6",
+         "name":"SWR3",
+         "desc":"Pop, Hip Hop, Hits, German",
+         "url":"https://swr-edge-3034-dus-ts-cdn.cast.addradio.de/swr/swr3/live/aac/96/stream.aac",
+         "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/SWR3_Logo.svg/1200px-SWR3_Logo.svg.png"
+      },
+      {
+         "_id":"radios:b5a8fbf9e202767c0995e2d010b1ff3d",
+         "_rev":"2-f31b28a12c46e7498723fdbf9e669ccc",
+         "name":"MEGAHits",
+         "desc":"Hits, Pop",
+         "url":"https://22533.live.streamtheworld.com/MEGA_HITSAAC.aac",
+         "img":"https://upload.wikimedia.org/wikipedia/en/9/97/Mega_Hits_logo.png"
+      },
+      {
+         "_id":"radios:182562e36d8a71cc13ef4e6f9ba0449c",
+         "_rev":"4-88690b8a82a4cc1b66a9883750c932d6",
+         "name":"Anison.FM",
+         "desc":"Anime, Japanese/English",
+         "url":"https://pool.anison.fm/AniSonFM(128)",
+         "img":"https://anison.fm/images/logo-og.png"
+      },
+      {
+         "_id":"radios:8aafdf2dad72719a6a52e9018e7cf7a1",
+         "_rev":"1-6ff6e3343d6eec1d87e80a4b8cff39e4",
+         "name":"WDR3",
+         "desc":"Pop, Hip-Hop, Hits, German",
+         "url":"https://wdr-edge-20ba-fra-lg-cdn.cast.addradio.de/wdr/wdr3/live/mp3/128/stream.mp3",
+         "img":"https://www.radio.de/images/broadcasts/e9/41/2460/2/c175.png"
+      },
+      {
+         "_id":"radios:cb58b943680fab32d5bb7d9f2bde3d76",
+         "_rev":"1-3e72a81841a03112a8008af6ab6d0299",
+         "name":"Gong96.3",
+         "desc":"Pop, HipHop",
+         "url":"http://radiogong-ais-edge-3001-fra-eco-cdn.cast.addradio.de/radiogong/live/mp3/high",
+         "img":"https://www.radiogong.de/livestreams/radioplayer/channel_jetzt_laeuft/gong_q.png"
+      },
+      {
+         "_id":"radios:337d9d04601edb1fd95c9a6ad8d2b096",
+         "_rev":"2-60b173b0b8004c767b4fac725879c8ff",
+         "name":"NRJStuttgart",
+         "desc":"Pop, HipHop",
+         "url":"https://scdn.nrjaudio.fm/adwz1/de/33005/mp3_128.mp3?origine=radio.net",
+         "img":"https://www.radio.de/images/broadcasts/d3/39/6876/1/c175.png"
+      },
+      {
+         "_id":"radios:8f690e5cf45e5bdf6fbfb53fdc123cff",
+         "_rev":"1-6c06b3d47656c3f46c126e54f583285f",
+         "name":"Los40",
+         "desc":"Hip Hop, Pop, Hits",
+         "url":"http://stream.radiogandia.com:8080/cuarenta_aac",
+         "img":"https://www.radio.de/images/broadcasts/4c/ce/10732/1/c175.png"
+      },
+      {
+         "_id":"radios:640236411f5055d595b28e407dc9e985",
+         "_rev":"1-007991fe3bcdf927864f8330c1ab55a1",
+         "name":"100,5-Hit",
+         "desc":"Hip Hop, Pop, Hits, Classic",
+         "url":"https://dashitradio-stream28.radiohost.de/dashitradio_128",
+         "img":"https://www.radio.de/images/broadcasts/90/0e/9857/3/c175.png"
+      },
+      {
+         "_id":"radios:8f690e5cf45e5bdf6fbfb53fdc132cc5",
+         "_rev":"1-f9f39f379fce15467aa3486e5f80306c",
+         "name":"SWR-BW",
+         "desc":"Hip Hop, Pop, Hits",
+         "url":"https://swr-edge-3035-fra-ts-cdn.cast.addradio.de/swr/swr1/bw/aac/48/stream.aac",
+         "img":"https://www.swr.de/assets/swr/swr1/apple-touch-icon-152x152.png"
+      },
+      {
+         "_id":"radios:640236411f5055d595b28e407dcaf7b1",
+         "_rev":"1-f2e496ff6a5ffdad981d0b5841d90bda",
+         "name":"Rockstar",
+         "desc":"Rock, Hits",
+         "url":"https://stream.mediasector.es/radio/8060/rockstar.mp3",
+         "img":"https://upload.wikimedia.org/wikipedia/commons/f/f0/GHS-pictogram-unknown.svg"
+      },
+      {
+         "_id":"radios:7dfe049acbeb7ad1dcdb4f429a9d2831",
+         "_rev":"1-2f428ab5bb7ab891aa90435e4e856fee",
+         "name":"oe3",
+         "desc":"Pop",
+         "url":"https://orf-live.ors-shoutcast.at/oe3-q2a?player=radiothek_v1",
+         "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Hitradio_%C3%963.svg/550px-Hitradio_%C3%963.svg.png"
+      },
+      {
+         "_id":"radios:5b6a61d21634b195d238806c76ccd1f1",
+         "_rev":"1-7298eb8d08e098928413df45ecb3700e",
+         "name":"malibu",
+         "desc":"Pop",
+         "url":"https://cdn4.onstream.audio:9158/maliburadio.mp3?_=1",
+         "img":"https://radiomalibu.es/wp-content/uploads/2019/04/Logos-definidosCC-04.png"
+      },
+      {
+         "_id":"radios:ed27893af27332c2b3df20ccaddb32a1",
+         "_rev":"1-3629969e5f1b6d8cae37592248214bf0",
+         "name":"Technobase",
+         "desc":"Pop, Techno",
+         "url":"https://listener2.mp3.tb-group.fm/tb.mp3",
+         "img":"https://www.technobase.fm/content/images/site/logo-technobase.fm.png"
+      },
+      {
+         "_id":"radios:5eb7ba68bac0554bf7063536",
+         "_rev":"3-7244d3f1ea513500ef1978f61630a4f8",
+         "name":"Trancebase",
+         "desc":"Pop, Trance",
+         "url":"https://listener3.mp3.tb-group.fm/trb.mp3",
+         "img":"https://cdn-profiles.tunein.com/s96662/images/logog.jpg"
+      }
+   ]
+}
